@@ -24,14 +24,15 @@ connection.connect(function(err) {
 var order = function() {
     connection.query("SELECT * FROM products", function(err, res) {
         var table = new Table({
-                head: ['Item ID', 'Product Name', 'Department', 'Price', 'Quantity Available']
+                head: ['Item ID', 'Product Name', 'Department', 'Price (each)', 'Quantity Available']
         });
         // Pushes the inventory into a table and displays the result. 
-            console.log("Inventory list shown below is is updated daily.  Check back tomorrow for more savings!");
+            console.log("\n\nInventory list shown below is is updated daily.  Check back tomorrow for more savings!");
             for (var i = 0; i < res.length; i++) {
                 table.push([res[i].item_id, res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]);
             }
             console.log(table.toString());
+            console.log("\n");
         // Prompt the user to provide the information for their order.
             var orderForm = function () {
                 inquirer.prompt([{
@@ -51,7 +52,7 @@ var order = function() {
                     message: "Please enter the quantity you would like to purchase:  ",
                     validate: function(value) {
                         if (isNaN(value) == true || value > res.stock_quantity + 1) {
-                            return false;
+                            console.log("Invalid selection.");
                         } else {
                             return true;
                         }
@@ -66,8 +67,8 @@ var order = function() {
                         orderForm();
                     } else {
                         var orderTotal = buyQuantity * res[buyId].price;
-                        console.log("  The total price for " + buyQuantity + " " + buyProductName + "'s is $" + orderTotal);
-                        console.log("  Thank you your order has been placed.")
+                        console.log("  The total price for " + buyQuantity + " " + buyProductName + "'s is $" + orderTotal.toFixed(2));
+                        console.log("  Thank you, your order has been placed.")
                         connection.query("UPDATE products SET ? WHERE ?", [{
                             stock_quantity: buyProduct.stock_quantity - buyQuantity 
                         }, {
