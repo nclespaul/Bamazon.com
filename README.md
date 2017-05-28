@@ -1,4 +1,4 @@
-## Bamazon.com - An online store inventory management system.
+### Bamazon.com - An online store inventory management system.
 ***
 
 - Author:  Darrell Freeman
@@ -6,7 +6,7 @@
 
 Bamazon.com is a an interactive shopping app that uses Node.js and MySQL to package the customer shopping experience together with an inventory management system in one place.
 
-### bamazonCustomer.js
+#### bamazonCustomer.js
 ***
 
 
