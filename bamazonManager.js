@@ -195,7 +195,7 @@ var addProduct = function() {
                 // Update database with info for the new product.
                 }]).then(function(answer) {
                     connection.query("INSERT INTO products SET ?", {
-                        Item_Id: res.length + 1,
+                        item_Id: res.length + 1,
                         product_name: answer.newProduct,
                         department_name: answer.newDept,
                         price: answer.newPrice,
