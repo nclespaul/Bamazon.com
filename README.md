@@ -38,6 +38,10 @@ Bamazon Storefront managers can access and manage the inventory levels at any ti
 
 ##### View Low Inventory
 
-- Identifies and displays any current inventory product running low (Defined in this instance as count less than 5).  In the images below, this consists of 
+- Identifies and displays any current inventory product running low (Defined in this instance as count less than 5).  In the images below, this consists of items 12 (Ladder) and 13 (Sofa)
 
-![Bamazon Store](images/cust1.png)
+![Bamazon Inventory System](images/cust1.png)
+
+Choosing the "View Low Inventory" option will tell us this
+
+![Bamazon Inventory System](images/man1.png)
