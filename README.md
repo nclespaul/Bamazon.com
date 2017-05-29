@@ -48,7 +48,9 @@ Choosing the "View Low Inventory" option will tell us this
 
 ##### Add Inventory
 - This allows the manager to add inventory to any item on the current inventory list.  For example, to add 5 more ladders to stock: 
+
 ![Bamazon Inventory System](images/man2.png)
 
 This increases our stock to 9 total, as indicated in our refreshed inventory and MySQL tables.
+
 ![Bamazon Inventory System](images/man3.png)
