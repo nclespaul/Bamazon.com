@@ -61,5 +61,6 @@ This increases our stock to 9 total, as indicated in our refreshed inventory and
 ![Bamazon Inventory System](images/man4.png)
 
 Once the information is entered the changes can be verified within the Node.js and MySQL tables.
+
 ![Bamazon Inventory System](images/man5.png)
 
