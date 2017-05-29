@@ -28,3 +28,8 @@ And after our order has been placed, we re-run the program and refresh the MySQL
 
 #### Bamazon Inventory Management (Manager Level) - intialized using the command `node bamazonManager.js`.
 ***
+
+
+Bamazon Storefront managers can access and manage the inventory levels at any time.  Upon intializing the program, a list of choices is presented that the user can scroll through and choose.  The availabel choices are:
+- View Product for Sale
+ - This choice simply displays the current product list with the relevant information.
