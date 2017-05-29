@@ -26,5 +26,5 @@ And after our order has been placed, we re-run the program and refresh the MySQL
 
 ![Bamazon Store](images/cust3.png)
 
-#### Bamazon Inventory Management -(Manager Level) - intialized using the command `node bamazonManager.js` at the terminal.
+#### Bamazon Inventory Management (Manager Level) - intialized using the command `node bamazonManager.js` at the terminal.
 ***
