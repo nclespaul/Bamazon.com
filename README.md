@@ -13,5 +13,5 @@ Bamazon.com is a an interactive shopping app that uses Node.js and MySQL to pack
 Customers can view the current inventory and select items that they wish to purchase.  An order is completed for any purchases made if sufficient stock exists .  The user is notified if there is not enough of an item in stock to complete the order, and is prompted to enter a valid purchase quantity.  If an order is completed, the number of items ordered is removed from and reflected after another inventory check.  This is also confirmed within the MySQL database. 
 
 ![Bamazon Store](images/cust1.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial Customer View                                  MySQL Source Database"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Initial Customer View                                  MySQL Source Database"
 
