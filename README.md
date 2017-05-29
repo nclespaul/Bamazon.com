@@ -17,7 +17,11 @@ Customers can view the current inventory and select items that they wish to purc
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Initial Customer View
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    MySQL Source Database
 
-In this example, we are going to place an order for 14 Playstation 4's.  Our current inventory list shows that we have 18 of them on hand, so after our order we should be left with 4.  
+In this example, we are going to place an order for 14 Playstation 4's.  So we simply enter the ID number of the item (6) that we are ordering, and then how many we want (14.  We're having a party and need stations).
 
 
 ![Bamazon Store](images/cust2.png)
+
+And after our order has been placed, we re-run the program and refresh the MySQL database.  Both reflect correctly that we have 4 units left over.  
+
+![Bamazon Store](images/cust3.png)
