@@ -4,11 +4,10 @@
 - Author:  Darrell Freeman
 - Date:  05/23/17
 - Tools Used:  Node.js, MySQL, Javascript, NPM's (inquirer, mysql, cli-table)
-- Demonstration video created using FlashBack Express Player
 
 Bamazon.com is a an interactive shopping app that uses Node.js and MySQL to package the customer shopping experience together with an inventory management system in one place.
 
-#### bamazonCustomer.js
+#### bamazonCustomer.js - intialized using `node bamazonCustomer.js`
 ***
 
-Customers can view the current inventory and select items that they wish to purchase.  
+Customers can view the current inventory and select items that they wish to purchase.  An order is completed for any purchases made if sufficient stock exists .  The user is notified if there is not enough of an item in stock to complete the order, and is prompted to enter a valid purchase quantity.  If an order is completed, the number of items ordered is removed from and reflected after another inventory check.  This is also confirmed within the MySQL database. 
