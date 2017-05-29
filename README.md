@@ -54,3 +54,12 @@ Choosing the "View Low Inventory" option will tell us this
 This increases our stock to 9 total, as indicated in our refreshed inventory and MySQL tables.
 
 ![Bamazon Inventory System](images/man3.png)
+
+##### Add New Product
+- This allows for addition of new items to the inventory table.  Upon initialization, the user walks through a series of prompts for the necessary information, as shown below.  In this example, a new Ping Pong Table item is added to the Home and Garden department, with 8 on hand and at a price of 349.99 each.
+
+![Bamazon Inventory System](images/man4.png)
+
+Once the information is entered the changes can be verified within the Node.js and MySQL tables.
+![Bamazon Inventory System](images/man5.png)
+
