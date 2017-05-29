@@ -34,4 +34,10 @@ Bamazon Storefront managers can access and manage the inventory levels at any ti
 
 ##### View Product for Sale
 
-This choice simply displays the current product list with the relevant information.
+- This choice simply displays the current product list with the relevant information.  
+
+##### View Low Inventory
+
+- Identifies and displays any current inventory product running low (Defined in this instance as count less than 5).  
+
+![Bamazon Store](images/cust1.png)
