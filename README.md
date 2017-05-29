@@ -32,11 +32,11 @@ And after our order has been placed, we re-run the program and refresh the MySQL
 
 Bamazon Storefront managers can access and manage the inventory levels at any time.  Upon intializing the program, a list of choices is presented that the user can scroll through and choose.  The availabel choices are:
 
-##### View Product for Sale
+##### View Product for Sale:
 
 - This choice simply displays the current product list with the relevant information.  
 
-##### View Low Inventory
+##### View Low Inventory:
 
 - Identifies and displays any current inventory product running low (Defined in this instance as count less than 5).  In the images below, this consists of items 12 (Ladder) and 13 (Sofa)
 
@@ -46,7 +46,8 @@ Choosing the "View Low Inventory" option will tell us this
 
 ![Bamazon Inventory System](images/man1.png)
 
-##### Add Inventory
+##### Add Inventory:
+
 - This allows the manager to add inventory to any item on the current inventory list.  For example, to add 5 more ladders to stock: 
 
 ![Bamazon Inventory System](images/man2.png)
@@ -55,7 +56,8 @@ This increases our stock to 9 total, as indicated in our refreshed inventory and
 
 ![Bamazon Inventory System](images/man3.png)
 
-##### Add New Product
+##### Add New Product:
+
 - This allows for addition of new items to the inventory table.  Upon initialization, the user walks through a series of prompts for the necessary information, as shown below.  In this example, a new Ping Pong Table item is added to the Home and Garden department, with 8 on hand and at a price of 349.99 each.
 
 ![Bamazon Inventory System](images/man4.png)
