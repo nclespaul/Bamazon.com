@@ -45,3 +45,6 @@ Bamazon Storefront managers can access and manage the inventory levels at any ti
 Choosing the "View Low Inventory" option will tell us this
 
 ![Bamazon Inventory System](images/man1.png)
+
+##### Add Inventory
+- This allows the manager to add inventory to any item on the current inventory list.  For example, if five new ladders came in, we would simply 
