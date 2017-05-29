@@ -25,3 +25,6 @@ In this example, we are going to place an order for 14 Playstation 4's.  So we s
 And after our order has been placed, we re-run the program and refresh the MySQL database.  Both reflect correctly that we have 4 units left over.  
 
 ![Bamazon Store](images/cust3.png)
+
+#### Bamazon Inventory Management System (Manager Level) - intialized using the command `node bamazonManager.js` at the terminal.
+***
