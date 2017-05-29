@@ -1,4 +1,4 @@
-### Bamazon.com - An online store inventory management system.
+### Bamazon.com - An online customer storefront and inventory management system.
 ***
 
 - Author:  Darrell Freeman
