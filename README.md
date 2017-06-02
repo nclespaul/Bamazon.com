@@ -5,7 +5,7 @@
 - Date:  05/23/17
 - Tools Used:  Node.js, MySQL, Javascript, NPM's (inquirer, mysql, cli-table)
 
-Bamazon.com is a an interactive shopping app that uses Node.js and MySQL to package the customer shopping experience together with an inventory management system in one place.
+Bamazon.com is an interactive shopping app that uses Node.js and MySQL to package the customer shopping experience together with an inventory management system in one place.
 
 #### Bamazon Customer Storefront - intialized using the command `node bamazonCustomer.js` at the terminal.
 ***
